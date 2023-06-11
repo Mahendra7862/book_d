@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.home{
+    padding-top: 60px;
+    display: flex;
+}
+.add_book{
+    position: fixed;
+    width: 25%;
+}
+.view_book{
+    margin-left: 32%;
+    width: 100%;
+}
+.view_book .main_row{
+    width: 100%;
+    margin:10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.main_row h5{
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.book_name{
+    width: 80%;
+}
+.buttons{
+    float: right;
+    text-align: end;
+    width: 20%;
+}
+.buttons i{
+    margin-left: 30px;
+}
+.sub_row{
+    padding: 10px;
+}
+
